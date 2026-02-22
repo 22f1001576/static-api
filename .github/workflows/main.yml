@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f1001576@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
